@@ -10,7 +10,7 @@ function displayResult(result) {
   document.getElementById('result').innerHTML = `Resultado: ${result}`;
 }
 
-function sum() {
+const sum = () => {
   const result = calculateSum();
   displayResult(result);
 }
